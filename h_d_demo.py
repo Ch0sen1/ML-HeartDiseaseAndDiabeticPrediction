@@ -25,6 +25,7 @@ weakHeart = Image.open('weakHeart.jpg')
 para_list = ['BMI', 'Smoking', 'Stroke', 'PhysicalHealth', 'MentalHealth', 'DiffWalking', 'Sex', 'AgeCategory', 'Diabetic', 'PhysicalActivity', 'GenHealth', 'Asthma', 'KidneyDisease', 'SkinCancer']
 para_input = []
 para_default_values=['20', '1', '0', '0', '0.833333','0','0','1','0','1','0.75','0','0','0']
+res = []
 
 
 for parameter, parameter_df in zip(para_list, para_default_values):
